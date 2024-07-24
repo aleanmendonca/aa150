@@ -1,0 +1,37 @@
+  .smooth-dnd-container {
+    min-height: 75vh;
+    max-height: 75vh;  
+  }
+  
+  .react-trello-lane {
+    width: 350px;
+    background-color: #30A0F9 !important; 
+  }
+
+  .react-trello-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+  
+  .react-trello-board {
+    min-height: 90vh;
+    max-height: 90vh;
+  }
+  
+  .smooth-dnd-container .vertical {
+    overflow: auto;
+    scrollbar-width: thin;
+    width: 330px;
+    scrollbar-color: rgb(146, 146, 146);
+  }
+  
+  section>header>span {
+    color: #fff;
+    width: 100% !important;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    border-radius: 10px;
+  }

@@ -1,0 +1,18 @@
+{
+  "ts-node": {
+    "swc": true, // add speedy web compiler (typescript compiler written in rust)
+    "transpileOnly": true // set to transpileOnly
+  },
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  }
+}
